@@ -51,10 +51,14 @@ void LinkedList::printList() {
   ListNode *current;
   current = this->start;
 
+  cout << "printList --- start ---" << endl;
   while(current->next != NULL) {
     current = current->next;
-    cout << "node value: " << current->val << endl;
+    cout << current->val << "->";
   }
+
+  cout << "null" << endl;
+
   cout << "printList ---  end  ---" << endl;
 
 }

@@ -48,8 +48,9 @@ void printList() {
   current = start;
   while(current->next != NULL) {
     current = current->next;
-    cout << "node value: " << current->val << endl;
+    cout << current->val << "->";
   }
+  cout << "null" << endl;
   cout << "printList ---  end  ---" << endl;
 }
 

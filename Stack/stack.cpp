@@ -67,7 +67,7 @@ void pushStack(int n) {
     top->under = newNode;
     cout << n << " ";
   } else {
-    cout << "over limitHeight" << endl;
+    cout << "\nover limitHeight of stack" << endl;
   }
 }
 
